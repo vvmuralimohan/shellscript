@@ -1,4 +1,8 @@
 #!/bin/bash
+#Version:1.0
+#Author: Murali Vadlamudi
+#Email: murali.vadlamudi@global.ntt
+#Date: 01/02/2022
 # Expects 2 arguments
 if [ $# -ne 2 ]
 then
@@ -37,4 +41,5 @@ then
         fi
 fi
 done
-
+echo "All SAP gateways working as expected."
+exit 0;
